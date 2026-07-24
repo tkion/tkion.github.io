@@ -1,12 +1,3 @@
-title: 主页
 yaml
-强制注入自定义头部样式
-head_html: |
-<style>
-.markdown-body > a:first-child {
-color: #ff6600 !important; /* 橙色，带 !important 强制覆盖 */
-text-decoration: none;
-font-size: 24px;
-font-weight: bold;
-}
-</style>
+title: 主页
+theme: jekyll-theme-minima

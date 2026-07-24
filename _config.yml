@@ -1,4 +1,3 @@
 title: 主页
 theme: jekyll-theme-minima
-plugins:
-jekyll-theme-minima
+plugins: jekyll-theme-minima

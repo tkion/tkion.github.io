@@ -1,1 +1,1 @@
-# tkion.github.io
+Asa意为朝，为日语里早上罗马音译文

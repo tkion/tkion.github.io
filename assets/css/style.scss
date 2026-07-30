@@ -1,0 +1,10 @@
+@import "{{ site.theme }}";
+.site-footer {
+display: none !important;
+}
+.site-title {
+color: #66CCFF !important;
+text-decoration: none !important;
+pointer-events: none;
+cursor: default;
+}

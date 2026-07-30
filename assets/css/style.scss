@@ -1,6 +1,29 @@
-<style>
-.site-title {
-color: #66CCFF !important;
+@import "{{ site.theme }}";
+
+/* 1. 使用 ID 选择器 #site-title 匹配实际元素，提升权重 */
+
+site-title {
+
+color: #66CCFF !important;           /* 强制亮蓝色 */
+
 text-decoration: none !important;
+
+pointer-events: none;
+
+cursor: default;
+
 }
-</style>
+
+/* 2. 兼容暗黑模式，防止被主题自动反色 */
+
+.dark #site-title {
+
+color: #66CCFF !important;
+
+text-decoration: none !important;
+
+pointer-events: none;
+
+cursor: default;
+
+}

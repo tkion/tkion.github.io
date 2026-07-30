@@ -1,7 +1,21 @@
 @import "{{ site.theme }}";
+/* === 浅色模式样式 === */
 body:not(.dark) .site-title {
 color: #66CCFF !important;
 text-decoration: none !important;
 pointer-events: none;
 cursor: default;
+}
+body:not(.dark) .site-footer {
+display: none !important;
+}
+/* === 暗黑模式样式（追加部分） === */
+.dark .site-title {
+color: #66CCFF !important; /* 保持亮色 */
+text-decoration: none !important;
+pointer-events: none;
+cursor: default;
+}
+.dark .site-footer {
+display: none !important;
 }

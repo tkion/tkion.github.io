@@ -1,11 +1,10 @@
-/* --- 浅色模式下的标题样式 --- */
+@import "{{ site.theme }}";
 site-nav #site-title {
 color: #66CCFF !important;
 text-decoration: none !important;
 pointer-events: none;
 cursor: default;
 }
-/* --- 暗黑模式下的标题样式 --- */
 .dark #site-nav #site-title {
 color: #66CCFF !important;
 text-decoration: none !important;

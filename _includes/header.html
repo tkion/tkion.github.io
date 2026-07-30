@@ -13,7 +13,7 @@ body {
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.minima.nav_pages | default: default_paths -%}
     {%- assign page_titles = site.pages | map: 'title' | compact %}
-    <a class="site-title" id="site-title" rel="author" href="{{ '/' | relative_url }}" style="color: #66CCFF !important;">{{ site.title | escape }}</a>
+    <a class="site-title" id="site-title" rel="author" href="{{ '/' | relative_url }}" style="color: #66CCFF !important; margin-left: 0 !important; padding-left: 0 !important;">{{ site.title | escape }}</a>
 
     {%- unless page_titles == empty %}
       <nav class="site-nav">

@@ -1,6 +1,8 @@
 @import "{{ site.theme }}";
 
-/* 1. 使用 ID 选择器 #site-title 匹配实际元素，提升权重 */
+/* 1. 使用 ID 选择器 #site-title */
+
+/* 因为 HTML 里真实存在 id="site-title"，所以它的权重极高，能打败主题的默认样式 */
 
 site-title {
 
@@ -14,7 +16,7 @@ cursor: default;
 
 }
 
-/* 2. 兼容暗黑模式，防止被主题自动反色 */
+/* 2. 顺便把暗黑模式也防御一下 */
 
 .dark #site-title {
 

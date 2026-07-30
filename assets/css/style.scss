@@ -1,10 +1,6 @@
-@import "{{ site.theme }}";
-site-nav #site-title {
+<style>
+.site-title {
 color: #66CCFF !important;
 text-decoration: none !important;
-pointer-events: none;
-cursor: default;
 }
-.site-footer {
-display: none !important;
-}
+</style>
